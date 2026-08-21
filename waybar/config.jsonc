@@ -23,13 +23,13 @@
         "tooltip-format": "{controller_alias}\t{controller_address}",
         "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-        "on-click": "exec ghostty --title=bluetui -e bluetui"
+        "on-click": "exec kitty --title=bluetui -e bluetui"
     },
     "cpu": {
         "interval": 10,
         "format": " {}%",
         "max-length": 10,
-        "on-click": "exec ghostty --title=btop -e btop"
+        "on-click": "exec kitty --title=btop -e btop"
     },
     "network": {
         "interface": "wlan0",
@@ -58,7 +58,7 @@
         "interval": 30,
         "format": "{}% ",
         "max-length": 10,
-        "on-click": "exec ghostty --title=htop -e htop"
+        "on-click": "exec kitty --title=htop -e htop"
     },
     "pulseaudio": {
         "format": "{volume}% {icon}",
@@ -97,7 +97,8 @@
             "custom/media-icon",
             "custom/media-now-playing",
             "custom/media-time"
-        ]
+        ],
+        "on-click": "spotify"
     },
     "custom/media-icon": {
         "escape": true,
