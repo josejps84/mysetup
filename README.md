@@ -1,6 +1,3 @@
-Current git personal accesstoken:
-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
-
 ** hypr/ **
 Contiene los archivos de configuracion para el funcionamiento personalizado de hyprland en arch linux
 
